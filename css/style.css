@@ -5,6 +5,9 @@ body{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+}
 nav{
     display: flex;
     justify-content: flex-end;
@@ -14,11 +17,10 @@ nav{
     list-style: none;
     display: flex;
     align-items: center;
-    margin-right: 1.2rem;
-    margin-top: 0.9rem;
+    margin: 0.9rem 1.2rem 0 0;
 }
 #links a{
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.5rem;
     color: rgba(0,0,0,0.87);
     font-size: 0.85rem;
 }
@@ -27,3 +29,13 @@ nav{
     width: 32px;
     height: 32px;
 }
+#menu-icon>a{
+    color: #000;
+}
+#google-logo{
+    display: flex;
+    justify-content: center;
+    margin: 6.5rem auto;
+}
+
+    
