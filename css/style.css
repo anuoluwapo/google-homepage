@@ -35,7 +35,71 @@ nav{
 #google-logo{
     display: flex;
     justify-content: center;
-    margin: 6.5rem auto;
+    margin: 6.5rem auto 1.8rem auto;
 }
-
+#google-logo>img{
+    max-width: 100%;
+    height: auto;
+}
+form{
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 44px;
+    padding: 2px;
+}
+form:hover, .shadow{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#search-icon{
+    width: 21px;
+    height: 21px;
+    margin: 10px;
+    padding-right: 3px;
+    /* color: #9AA0A6; */
+}  
+input{
+    display: flex;
+    flex: 50%;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    height: 34px;
+}
+.close-icon {
+	border: none;
+	background-color: transparent;
+    outline: 0;
+    cursor: pointer;
+    display: none;
+    margin-right: 8px;
+}
+.close-icon:after {
+	content: "X";
+	display: block;
+    padding: 2px;
     
+    font-size: 22px;
+    color: #80868b;
+}
+.border-height{
+    border-right: 1px solid #dfe1e5;
+    height: 30px;
+    margin-right: 2px;
+    display: none;
+}
+input:not(:valid) .close-icon{
+    display: none;
+}
+#mic-icon{
+    width: 24px;
+    height: 24px;
+    float: right;
+    padding: 0 15px 0 8px;
+    cursor: pointer;
+}
