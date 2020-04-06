@@ -42,7 +42,7 @@ nav{
     height: auto;
 }
 form{
-    max-width: 480px;
+    max-width: 580px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -102,4 +102,40 @@ input:not(:valid) .close-icon{
     float: right;
     padding: 0 15px 0 8px;
     cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 1.7rem 0.8rem 0.8rem 0;
+}
+.buttons>button{
+    padding: 10px 17px;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    margin: 0 6px;
+    cursor: pointer;
+}
+.buttons>button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+.buttons>button:active{
+    border-color: blue;
+}
+.links{
+    text-align: center;
+    margin-top: 1.8rem;
+    font-size: 13px;
+}
+.links span{
+    opacity: 0.9;
+}
+.links a{
+    padding: 0 3px;
+    color: #1a0dab;
 }
