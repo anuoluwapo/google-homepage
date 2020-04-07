@@ -8,6 +8,13 @@ a{
 a:hover{
     text-decoration: underline;
 }
+#menu-icon>a{
+    opacity: .8;
+}
+#menu-icon>a:hover, #menu-icon>a:focus{
+    color: #000;
+    opacity: 1;
+}
 nav{
     display: flex;
     justify-content: flex-end;
