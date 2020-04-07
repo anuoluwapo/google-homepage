@@ -90,7 +90,6 @@ input{
 	content: "X";
 	display: block;
     padding: 2px;
-    
     font-size: 22px;
     color: #80868b;
 }
@@ -192,7 +191,7 @@ footer{
         align-items: center;
     }
     .footer-bottom a{
-        padding: 4.4px;
+        padding: 3.85px;
     }
     #google-logo{
         max-width: 50%;
